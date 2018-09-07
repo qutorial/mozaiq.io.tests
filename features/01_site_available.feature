@@ -3,42 +3,39 @@ Feature: Check general site availability
 	Scenario: Visit mozaiq.io browse main pages
 	Given I am on home
 	Then I should see "mozaiq"
-	Then I should see "Contact us"
-	Then I should see "Community"
-	Then I should see "Newsroom"
-	Then I should see "About"
-	Then I should see "Home"
+	Then I should see "Contact"
+	Then I should see "our Platform"
+	Then I should see "Newshub"
+	Then I should see "The company"
+	Then I should see "Our product"
 	
 	Scenario: Check team members
 	Given I am on team
-	Then I should see "Bernd"
-	Then I should see "Axel"
-	Then I should see "Zaur"
-	Then I should see "Daniel"
+	Then I should see "OUR TEAM"
+	Then I should see "We are mozaiq"
 
 	Scenario: Check impressum
 	Given I am on impressum
-	Then I should see "Sonnenstr"
-
-	Scenario: Check marketplace
-	Given I am on marketplace
-	Then I should see "SECURE"
-	Then I should see "FOCUSED"
+	Then I should see "Sonnenstr. 23"
 
 	Scenario: Check about page
 	Given I am on about
+	Then I should see "IoT"
+
+	Given I am on company page
+	Then I should see "we unite the power"
+
+	Scenario: Check sponsors
+	Given I am on sponsors
 	Then I should see "ABB"
 	Then I should see "Bosch"
 	Then I should see "Cisco"
-	Then I should see "Munich"
-	Then I should see "Paris"
-	Then I should see "Frankfurt"
-	Then I should see "headcount"
 
 	Scenario: Check jobs
 	Given I am on jobs
-	Then I should see "Be part of our team"
-	
+	Then I should see "Career"
+	Then I should see "Our culture"
+
 	Scenario: Check privacy policy
 	Given I am on privacy-policy
 	Then I should see "Google"
@@ -53,5 +50,8 @@ Feature: Check general site availability
 
 	Scenario: Check newsroom
 	Given I am on newsroom
-	Then I should see "Penter"
+	Then I should see "All"
+	Then I should see "Events"
 	Then I should see "News"
+	Then I should see "Egardia"
+	Then I should see "Community Event"

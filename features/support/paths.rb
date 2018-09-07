@@ -1,7 +1,12 @@
 module NavigationHelpers
  def path_to(page_name)
      base_url = "https://mozaiq.io/"
+     new_url = "https://new.mozaiq.io/"
      case page_name
+     when /company/
+       new_url + "the-company/"
+     when /sponsors/
+       path_to("company") + "#p1151"
      when /home/
        base_url + ""
      when /events/
