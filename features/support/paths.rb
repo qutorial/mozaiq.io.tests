@@ -10,11 +10,11 @@ module NavigationHelpers
      when /home/
        base_url + ""
      when /events/
-       base_url + "events/"
+       base_url + "newshub/"
      when /marketplace/
        base_url + "#Marketplace"
      when /newsroom/
-       base_url + "newsroom/"
+       base_url + "newshub/"
      when /community/
        base_url + "community/"
      when /participants/
@@ -22,9 +22,9 @@ module NavigationHelpers
      when /events/
        base_url + "community/events/"
      when /team/
-       base_url + "about/our-team/"
+       base_url + "the-company/#p1125"
      when /jobs/
-       base_url + "about/jobs/"
+       base_url + "the-company/#p1126"
      when /impressum/
        base_url + "legal-disclosure/"
      when /privacy-policy/

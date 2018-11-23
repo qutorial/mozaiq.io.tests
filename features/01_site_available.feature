@@ -3,11 +3,9 @@ Feature: Check general site availability
 	Scenario: Visit mozaiq.io browse main pages
 	Given I am on home
 	Then I should see "mozaiq"
-	Then I should see "Contact"
-	Then I should see "our Platform"
-	Then I should see "Newshub"
-	Then I should see "The company"
 	Then I should see "Our product"
+	Then I should see "The company"
+	Then I should see "Newshub"
 	
 	Scenario: Check team members
 	Given I am on team
@@ -53,5 +51,4 @@ Feature: Check general site availability
 	Then I should see "All"
 	Then I should see "Events"
 	Then I should see "News"
-	Then I should see "Egardia"
 	Then I should see "Community Event"
